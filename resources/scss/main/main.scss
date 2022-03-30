@@ -1,0 +1,21 @@
+@import '../variables/colors';
+body{
+    background-color: $bkColor;
+    color: $whiteColor;
+}
+@media screen and (max-width:991px)
+{
+    .title{
+        text-align: center;
+        padding: 18px 0;
+        padding-top: 60px;
+    }
+}
+@media screen and (min-width:992px)
+{
+    .title{
+        text-align: center;
+        padding: 18px 0;
+        padding-top: 83px;
+    }
+}

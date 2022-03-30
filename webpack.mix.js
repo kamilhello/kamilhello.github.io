@@ -11,7 +11,8 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-    .postCss('resources/css/app.css', 'public/css', [
-        //
-    ]);
+ mix.js('resources/js/app.js' ,'public/js/es6.js').vue();
+ mix.babel(['public/js/es6.js'], 'public/js/app.js');
+ mix.sass('resources/scss/app.scss', 'public/css');
+ mix.copy('resources/images','public/images/');
+ mix.copy('resources/videos','public/videos/');
