@@ -17,14 +17,22 @@ jobs:
         run: |
           npm install
           npm run production
-          cp ./resources/views/frontend.blade.php ./index.html
-          cp -rp ./public/css ./
-          cp -rp ./public/js ./
-          cp -rp ./public/images ./
-          cp -rp ./public/videos ./
+          mkdir tmp
+          cp ./resources/views/frontend.blade.php ./tmp/index.html
+          cp -rp ./public/css ./tmp/
+          cp -rp ./public/js ./tmp/
+          cp -rp ./public/images ./tmp/
+          cp -rp ./public/videos ./tmp/
+          cp README.md ./tmp/README.md
           git config user.name "Github Actions Bot"
           git config user.email "<>"
           git checkout master
+          cp ./tmp/index.html ./index.html
+          cp -rp ./tmp/css ./
+          cp -rp ./tmp/js ./
+          cp -rp ./tmp/images ./
+          cp -rp ./tmp/videos ./
+          cp ./tmp/README.md ./README.md
           git add index.html
           git add js/
           git add css/
