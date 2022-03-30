@@ -21,8 +21,8 @@
         <div class="col-xs-12 col-lg-6">
         <figure>
             <img class="picture" src="images/deliveryPaper.jpg" alt="Delivery paper"/>
-        </figure>
             <figcaption>Fig2. - Document generated via confectionery app.</figcaption>
+        </figure>
         </div>
         <div class="col-xs-12 col-lg-3"></div>
     </div>
@@ -54,11 +54,11 @@
         <source src="videos/confectionery1920x1080.webm" type="video/webm">
         Sorry, your browser doesn't support embeded videos.
     </video>
-    </figure>
     <figcaption class="right">
         <p><music/> Music used in presentation from <a href="https://www.bensound.com">www.bensound.com</a></p>
-        <p><images-attribution/> <a href="https://github.com/kamilhello/kamilhello.github.io">Attribution</a></p>
+        <p><images-attribution/> <a href="https://github.com/kamilhello/kamilhello.github.io#Attribution">Attribution</a></p>
     </figcaption>
+    </figure>
     </div>
         <div class="col-xs-12 col-lg-3"></div>
     </div>
