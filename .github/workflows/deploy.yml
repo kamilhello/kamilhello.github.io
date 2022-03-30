@@ -1,0 +1,35 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with: 
+          fetch-depth: '0'
+      - name: Deploy
+        run: |
+          npm install
+          npm run production
+          cp ./resources/views/frontend.blade.php ./index.html
+          cp -rp ./public/css ./
+          cp -rp ./public/js ./
+          cp -rp ./public/images ./
+          cp -rp ./public/videos ./
+          git config user.name "Github Actions Bot"
+          git config user.email "<>"
+          git checkout master
+          git add index.html
+          git add js/
+          git add css/
+          git add images/
+          git add videos/
+          git add README.md
+          git commit -m "Deploy page"
+          git push origin master
