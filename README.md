@@ -20,7 +20,7 @@ Pictures used in movie:
 <img src="https://img.freepik.com/darmowe-zdjecie/pyszne-gofry-z-ciemnej-czekolady-na-kamiennej-powierzchni_114579-56957.jpg" height="60" width="60">
 <img src="https://img.freepik.com/darmowe-zdjecie/smaczne-domowe-ciasto-tiramisu_114579-85350.jpg" height="60" width="60">
 
-[Picture taken by azerbaijan_stockers - pl.freepik.com](https://pl.freepik.com/zdjęcia/jedzenie)
+[Pictures taken by azerbaijan_stockers - pl.freepik.com](https://pl.freepik.com/zdjęcia/jedzenie)
 
 <img src="https://img.freepik.com/darmowe-zdjecie/apetyczna-serowa-zapiekanka-na-bielu-talerza-zakonczeniu-up_2829-19785.jpg" height="60" width="60">
 
