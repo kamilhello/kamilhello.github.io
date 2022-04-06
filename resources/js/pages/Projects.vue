@@ -55,8 +55,8 @@
         Sorry, your browser doesn't support embeded videos.
     </video>
     <figcaption class="right">
-        <p><music/> Music used in presentation from <a href="https://www.bensound.com">www.bensound.com</a></p>
-        <p><images-attribution/> <a href="https://github.com/kamilhello/kamilhello.github.io#Attribution">Attribution</a></p>
+        <p><music/> <a href="https://www.bensound.com">www.bensound.com</a> 
+        <images-attribution/> <a href="https://github.com/kamilhello/kamilhello.github.io#Attribution">Attribution</a></p>
     </figcaption>
     </figure>
     </div>

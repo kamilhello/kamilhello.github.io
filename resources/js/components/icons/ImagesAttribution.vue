@@ -18,5 +18,6 @@ $size: 18px;
     height: $size;
     fill: $color6;
     vertical-align: middle;
+    margin-left: 5px;
 }
 </style>
