@@ -4,7 +4,7 @@
         <div class="col-xs-12 center">
             <ul class="contact">
                 <li><a href="https://github.com/kamilhello/" target="_blank"><github/> <span class="line">GitHub</span></a></li>
-                <li><a href="mailto:kamil.mymail@protonmail.com"><envelope/> <span class="line">kamil.mymail@protonmail.com</span></a></li>
+                <li><a href="mailto:kamildeveloper@protonmail.com"><envelope/> <span class="line">kamildeveloper@protonmail.com</span></a></li>
             </ul>
             <shakingHands/>
         </div>
