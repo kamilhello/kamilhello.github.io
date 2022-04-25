@@ -1,9 +1,33 @@
 ## About this page
 This page present actual projects and describe my skills.
+
 ## Technologies stack
 This page was created under Laravel in Vue.js
+
+## Installation
+For locally deploy run:
+- composer install
+- cp .env.example .env
+
+In .env file set variables:
+- DB_USERNAME=sail
+- DB_PASSWORD=password
+
+After run commands:
+- php artisan key:generate
+- npm install
+
+- sail up -d
+- sail npm run dev
+
+Open web browser at http://127.0.0.1
+
+To stop docker container use:
+- sail down
+
 ## Contact
-kamil.mymail@protonmail.com
+kamildeveloper@protonmail.com
+
 ## Attribution
 Pictures used in movie:
 
