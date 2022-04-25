@@ -111,7 +111,7 @@ export default {
 }
 @media screen and (min-width:992px){
     .menu{
-        border-bottom: $lightgray solid 1px;
+        border-bottom: $lightGray solid 1px;
     }
     .menu-mobile{
         display: none;
