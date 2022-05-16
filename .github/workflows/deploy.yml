@@ -39,5 +39,5 @@ jobs:
           git add images/
           git add videos/
           git add README.md
-          git commit -m "Deploy page"
+          git commit -m "Deploy page: `date +'%Y-%m-%d %H:%M:%S'`"
           git push origin master
